@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>NaoBoutique</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><span>Nao</span>Boutique</a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navbar">
+            <li><a href="index.html" onclick="toggleMenu();">Accueil</a></li>
+            <li><a href="apropos.html" onclick="toggleMenu();">A propos</a></li>
+            <li><a href="catalogue.html" onclick="toggleMenu();">Collections</a></li>
+            <li><a href="contact.html" onclick="toggleMenu();">Contact</a></li>
+            <a href="#" class="btn-reserve"onclick="toggleMenu();">Acheter</a>
+        </ul>
+    </header>
+    <section class="contact" id="contact">
+        <div class="titre noir">
+            <h2 class="titre-text"><span>C</span>ontact</h2>
+            <p>Inscrivez-vous à notre newsletter pour être le premier informé de nos nouvelles collections, des promotions exclusives et des événements spéciaux. Suivez-nous sur les réseaux sociaux pour plus d’inspiration et des conseils de mode !
+            </p>
+        </div>
+        <div class="contactform">
+            <h3>Envoyer un message</h3>
+            <div class="inputboite">
+                <input type="text" placeholder="Nom">
+            </div>
+            <div class="inputboite">
+               <input type="text" placeholder="email">
+            </div>
+            <div class="inputboite">
+               <textarea placeholder="message"></textarea>
+            </div>
+            <div class="inputboite">
+                <input type="submit" value="envoyer">
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>copyright 2025 <a href="#">BETU TSHIBEMBA Naomie</a> . Tous droits reservé</p>
+    </div>
+    <script src="java/java.js"></script>
+</body>
+</html>
